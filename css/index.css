@@ -1,0 +1,62 @@
+@import "./reset.css";
+@import url('https://fonts.cdnfonts.com/css/noto-sans');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    width: 1920px; 
+    margin: 0 auto; 
+  }
+.wrap{
+    margin: 0 auto;
+    width: 1296px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 636px;
+    margin-bottom: 80px;
+}
+.item img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+    margin-bottom: 16px;
+}
+.content h2{
+    font-family: 'Noto Sans';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #3B3B3B;
+    margin-bottom: 8px;
+}
+.content p{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #919191;
+    margin-bottom: 24px;
+}
+.menu{
+    display: flex;
+}
+.content .menu li{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 4px 12px 4px 12px;
+    border-radius: 16px;
+    background-color: #F1F1F1;
+    margin-right: 16px;
+}
